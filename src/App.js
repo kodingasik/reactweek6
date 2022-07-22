@@ -1,8 +1,14 @@
+import Komponen from "./Materi/Komponen";
 
-import Compon from "./komponen";
 
 function App() {
-  return <Compon />;
+  return (
+    <div className="app">
+      <Komponen />
+    </div>
+  );
+  
+  
   
 }
 
