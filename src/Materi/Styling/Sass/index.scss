@@ -1,0 +1,26 @@
+$blue: #2196F3;
+
+.btns {
+   border: 2px solid black;
+   background-color: white;
+   color: black;
+   padding: 14px 2px;
+   font-size: 16px;
+   cursor: pointer;
+}
+
+.btns-info {
+   border-top: $blue;
+   color:dodgerblue;
+   border-radius: 6px;
+
+   &:hover {
+      background-color: $blue;
+      color: white;
+   }
+}
+
+// .btn-info:hover{
+//    background-color: $blue;
+//    color: white;
+// }
