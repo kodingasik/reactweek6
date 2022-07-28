@@ -1,6 +1,7 @@
 $blue: #2196F3;
+$red: firebrick;
 
-.btns {
+.btn {
    border: 2px solid black;
    background-color: white;
    color: black;
@@ -9,7 +10,7 @@ $blue: #2196F3;
    cursor: pointer;
 }
 
-.btns-info {
+.btn-info {
    border-top: $blue;
    color:dodgerblue;
    border-radius: 6px;
@@ -20,7 +21,21 @@ $blue: #2196F3;
    }
 }
 
+.btn-danger {
+   background-color: $red;
+   color: whitesmoke;
+
+   &:hover{
+      background-color: $red;
+      color: white;
+   }
+}
+
 // .btn-info:hover{
 //    background-color: $blue;
 //    color: white;
 // }
+
+.title {
+   color: $red;
+}

@@ -5,7 +5,7 @@ export default class Sass extends React.Component{
    render(){
       return(
          <div>
-            <button class="btns btns-info">Sass Styling</button>
+            <button class="btn btn-danger">Sass Styling</button>
          </div>
       )
    }
