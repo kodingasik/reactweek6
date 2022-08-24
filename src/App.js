@@ -1,11 +1,14 @@
-import Styling from "./Materi/Styling";
+// import Styling from "./Materi/Styling";
+
+import FormTask from "./ReactWeek6/FormTask";
+
 
 
 function App() {
   return (
     <div className="app">
-      <Styling />
-      
+      {/* <Styling /> */}
+      <FormTask />
     </div>
   );
   
